@@ -33,7 +33,9 @@ simulated function PostBeginPlay()
 
 simulated function Destroyed()
 {
-    if (EBall!=none) EBall.Destroy();
+    if (EBall!=none)
+        EBall.Destroy();
+
     super.Destroyed();
 }
 
@@ -41,6 +43,7 @@ simulated function ClientWeaponThrown()
 {
     if( (Instigator != None) && (PlayerController(Instigator.Controller) != None) )
         PlayerController(Instigator.Controller).EndZoom();
+        
     Super.ClientWeaponThrown();
 }
 
