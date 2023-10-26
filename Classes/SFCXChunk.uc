@@ -138,7 +138,7 @@ defaultproperties
      MaxSpeed=3500.000000
      Damage=16.000000
      MomentumTransfer=10000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeSFCXChunk'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeSFCXChunk'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.FlakChunk'
      LifeSpan=2.700000

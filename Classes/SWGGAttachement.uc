@@ -239,5 +239,5 @@ defaultproperties
      LightRadius=4.000000
      LightPeriod=3
      Mesh=SkeletalMesh'Weapons.Minigun_3rd'
-     Skins(0)=Texture'tk_SWXWeapons.SWGG.SWGGTex'
+     Skins(0)=Texture'mm_SWXWeapons.SWGG.SWGGTex'
 }

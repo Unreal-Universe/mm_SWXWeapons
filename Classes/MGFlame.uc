@@ -107,7 +107,7 @@ defaultproperties
      Damage=25.000000
      DamageRadius=150.000000
      MomentumTransfer=400.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeMGAlt'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeMGAlt'
      ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
      ExplosionDecal=Class'XEffects.ShockAltDecal'
      LightType=LT_Steady

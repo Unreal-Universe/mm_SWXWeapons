@@ -21,7 +21,7 @@ defaultproperties
      ShakeOffsetMag=(X=-40.000000)
      ShakeOffsetRate=(X=-2000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_SWXWeapons.SFCXChunk'
+     ProjectileClass=Class'mm_SWXWeapons.SFCXChunk'
      BotRefireRate=0.600000
      FlashEmitterClass=Class'XEffects.FlakMuzFlash1st'
      Spread=2400.000000

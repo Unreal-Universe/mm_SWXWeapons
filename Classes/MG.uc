@@ -107,7 +107,7 @@ simulated function ClientStartFire(int mode)
     }
     else if( bIsDoingFire == false )
     {
-        AmbientSound=Sound'tk_SWXWeapons.SWMGFlame';
+        AmbientSound=Sound'mm_SWXWeapons.SWMGFlame';
         bIsDoingFire = True;
     }
     Super.ClientStartFire(mode);
@@ -122,8 +122,8 @@ simulated function ClientStopFire(int mode)
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_SWXWeapons.MGPriFire'
-     FireModeClass(1)=Class'tk_SWXWeapons.MGAltFire'
+     FireModeClass(0)=Class'mm_SWXWeapons.MGPriFire'
+     FireModeClass(1)=Class'mm_SWXWeapons.MGAltFire'
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.FlakCannon.SwitchToFlakCannon'
      SelectForce="SwitchToFlakCannon"
@@ -136,16 +136,16 @@ defaultproperties
      SmallViewOffset=(X=19.000000,Y=9.000000,Z=-6.000000)
      CenteredOffsetY=-8.000000
      InventoryGroup=3
-     PickupClass=Class'tk_SWXWeapons.MGPickup'
+     PickupClass=Class'mm_SWXWeapons.MGPickup'
      PlayerViewOffset=(X=7.000000,Y=3.000000)
      BobDamping=2.200000
-     AttachmentClass=Class'tk_SWXWeapons.MGAttachement'
+     AttachmentClass=Class'mm_SWXWeapons.MGAttachement'
      IconMaterial=Texture'InterfaceContent.HUD.SkinA'
      IconCoords=(X1=322,Y1=281,X2=444,Y2=371)
      ItemName="Magma Gun"
      Mesh=SkeletalMesh'Weapons.BioRifle_1st'
-     Skins(0)=Texture'tk_SWXWeapons.SWMG.SWMGTex'
-     Skins(2)=Texture'tk_SWXWeapons.Skins.MGInBub'
-     Skins(3)=Texture'tk_SWXWeapons.Skins.MGInMagma'
+     Skins(0)=Texture'mm_SWXWeapons.SWMG.SWMGTex'
+     Skins(2)=Texture'mm_SWXWeapons.MG.MGInBub'
+     Skins(3)=Texture'mm_SWXWeapons.MG.MGInMagma'
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

@@ -29,12 +29,12 @@ simulated function UpdatePrecacheStaticMeshes()
 defaultproperties
 {
      MaxDesireability=0.780000
-     InventoryType=Class'tk_SWXWeapons.SRLX'
+     InventoryType=Class'mm_SWXWeapons.SRLX'
      PickupMessage="You got the super Rocket Launcher X. You are now a GOD!"
      PickupSound=Sound'PickupSounds.RocketLauncherPickup'
      PickupForce="RocketLauncherPickup"
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.RocketLauncherPickup'
      DrawScale=0.500000
-     Skins(0)=Texture'tk_SWXWeapons.SRLX.srlx01'
+     Skins(0)=Texture'mm_SWXWeapons.SRLX.srlx01'
 }

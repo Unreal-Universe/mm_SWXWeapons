@@ -110,7 +110,7 @@ defaultproperties
      Damage=5.000000
      DamageRadius=3.000000
      MomentumTransfer=130000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeBWGXLight'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeBWGXLight'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence
      LightHue=43

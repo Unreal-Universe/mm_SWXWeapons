@@ -13,7 +13,7 @@ static function GetHitEffects(out class<xEmitter> HitEffects[4], int VictemHealt
 
 defaultproperties
 {
-     WeaponClass=Class'tk_SWXWeapons.SRLX'
+     WeaponClass=Class'mm_SWXWeapons.SRLX'
      DeathString="%o is a pile of bloddy gibs thanks to %k's super rocket."
      FemaleSuicide="%o fired her rocket up her ass."
      MaleSuicide="%o fired his rocket up his ass."

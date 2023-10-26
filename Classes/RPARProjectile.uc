@@ -126,7 +126,7 @@ defaultproperties
      Damage=25.000000
      DamageRadius=1.000000
      MomentumTransfer=7000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeRPARPri'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeRPARPri'
      ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
      ExplosionDecal=Class'XEffects.ShockAltDecal'
      LightType=LT_Steady
@@ -141,7 +141,7 @@ defaultproperties
      bOnlyDirtyReplication=True
      AmbientSound=Sound'WeaponSounds.ShockRifle.ShockRifleProjectile'
      LifeSpan=10.000000
-     Texture=Texture'tk_SWXWeapons.RPARProj_t'
+     Texture=Texture'mm_SWXWeapons.RPARProj_t'
      DrawScale=0.100000
      Style=STY_Translucent
      SoundVolume=255

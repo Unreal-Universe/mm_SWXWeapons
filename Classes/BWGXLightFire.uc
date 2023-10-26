@@ -17,7 +17,7 @@ function Projectile SpawnProjectile(Vector Start, Rotator Dir)
     local LightProjectile Proj;
 
     Start += Vector(Dir) * 10.0 * BWGX(Weapon).Links;
-    Proj = Spawn(Class'tk_SWXWeapons.LightProjectile',,, Start, Dir);
+    Proj = Spawn(Class'mm_SWXWeapons.LightProjectile',,, Start, Dir);
 
     return Proj;
 }
@@ -33,7 +33,7 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.PulseRifle.PulseRifleFire'
      FireForce="TranslocatorFire"
      FireRate=0.180000
-     AmmoClass=Class'tk_SWXWeapons.BWGXAmmo'
+     AmmoClass=Class'mm_SWXWeapons.BWGXAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=40.000000)
      ShakeRotRate=(X=2000.000000)
@@ -41,8 +41,8 @@ defaultproperties
      ShakeOffsetMag=(Y=1.000000)
      ShakeOffsetRate=(Y=-2000.000000)
      ShakeOffsetTime=4.000000
-     ProjectileClass=Class'tk_SWXWeapons.LightProjectile'
+     ProjectileClass=Class'mm_SWXWeapons.LightProjectile'
      BotRefireRate=0.990000
      WarnTargetPct=0.100000
-     FlashEmitterClass=Class'tk_SWXWeapons.BWGXLightMuz'
+     FlashEmitterClass=Class'mm_SWXWeapons.BWGXLightMuz'
 }

@@ -23,7 +23,7 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.PulseRifle.PulseRifleFire'
      FireForce="TranslocatorFire"
      FireRate=0.580000
-     AmmoClass=Class'tk_SWXWeapons.BWGXAmmo'
+     AmmoClass=Class'mm_SWXWeapons.BWGXAmmo'
      AmmoPerFire=5
      ShakeRotMag=(X=40.000000)
      ShakeRotRate=(X=2000.000000)
@@ -31,8 +31,8 @@ defaultproperties
      ShakeOffsetMag=(Y=1.000000)
      ShakeOffsetRate=(Y=-2000.000000)
      ShakeOffsetTime=4.000000
-     ProjectileClass=Class'tk_SWXWeapons.DarkProjectile'
+     ProjectileClass=Class'mm_SWXWeapons.DarkProjectile'
      BotRefireRate=0.590000
      WarnTargetPct=0.100000
-     FlashEmitterClass=Class'tk_SWXWeapons.BWGXDarkMuz'
+     FlashEmitterClass=Class'mm_SWXWeapons.BWGXDarkMuz'
 }

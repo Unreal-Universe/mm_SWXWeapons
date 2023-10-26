@@ -71,10 +71,10 @@ defaultproperties
      FireAnim="AltFire"
      FireAnimRate=1.500000
      FireRate=0.100000
-     AmmoClass=Class'tk_SWXWeapons.MGAmmo'
+     AmmoClass=Class'mm_SWXWeapons.MGAmmo'
      ShakeRotMag=(X=60.000000,Y=20.000000)
      ShakeRotRate=(X=1000.000000,Y=1000.000000)
      ShakeRotTime=2.000000
-     ProjectileClass=Class'tk_SWXWeapons.MGFlame'
+     ProjectileClass=Class'mm_SWXWeapons.MGFlame'
      BotRefireRate=0.100000
 }

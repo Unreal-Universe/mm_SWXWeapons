@@ -357,7 +357,7 @@ defaultproperties
      Damage=23.000000
      DamageRadius=120.000000
      MomentumTransfer=10000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeMGPri'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeMGPri'
      ImpactSound=SoundGroup'WeaponSounds.BioRifle.BioRifleGoo2'
      ExplosionDecal=Class'XEffects.ShockAltDecal'
      LightType=LT_Steady

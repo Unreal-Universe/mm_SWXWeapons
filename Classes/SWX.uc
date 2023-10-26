@@ -8,21 +8,21 @@ function bool CheckReplacement(Actor Other, out byte bSuperRelevant)
     if ( xWeaponBase(Other) != None )
     {
         if ( xWeaponBase(Other).WeaponType == class'XWeapons.AssaultRifle' )
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.RPAR';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.RPAR';
         else if ( xWeaponBase(Other).WeaponType == class'XWeapons.BioRifle' )
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.MG';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.MG';
         else if ( xWeaponBase(Other).WeaponType == class'XWeapons.LinkGun' )
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.BWGX';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.BWGX';
         else if ( xWeaponBase(Other).WeaponType == class'XWeapons.ShockRifle' )
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.SWIG';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.SWIG';
         else if ( xWeaponBase(Other).WeaponType == class'XWeapons.RocketLauncher' )
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.SRLX';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.SRLX';
         else if ( xWeaponBase(Other).WeaponType == class'XWeapons.FlakCannon' )
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.SFCX';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.SFCX';
         else if ( xWeaponBase(Other).WeaponType == class'XWeapons.Minigun' )
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.SWGG';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.SWGG';
         else if ( xWeaponBase(Other).WeaponType == class'XWeapons.SniperRifle' || xWeaponBase(Other).WeaponType == class'UTClassic.ClassicSniperRifle')
-            xWeaponBase(Other).WeaponType = Class'tk_SWXWeapons.RPSR';
+            xWeaponBase(Other).WeaponType = Class'mm_SWXWeapons.RPSR';
             return true;
     }
     else if (WeaponLocker(Other) != none )
@@ -31,21 +31,21 @@ function bool CheckReplacement(Actor Other, out byte bSuperRelevant)
         for (i = 0; i < L.Weapons.Length; i++)
         {
             if ( L.Weapons[i].WeaponClass == class'xWeapons.AssaultRifle' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.RPAR';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.RPAR';
             else if ( L.Weapons[i].WeaponClass == class'xWeapons.Minigun' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.SWGG';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.SWGG';
             else if ( L.Weapons[i].WeaponClass == class'xWeapons.BioRifle' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.MG';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.MG';
             else if ( L.Weapons[i].WeaponClass == class'xWeapons.LinkGun' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.BWGX';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.BWGX';
             else if ( L.Weapons[i].WeaponClass == class'xWeapons.ShockRifle' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.SWIG';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.SWIG';
             else if ( L.Weapons[i].WeaponClass == class'xWeapons.RocketLauncher' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.SRLX';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.SRLX';
             else if ( L.Weapons[i].WeaponClass == class'xWeapons.FlakCannon' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.SFCX';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.SFCX';
             else if ( L.Weapons[i].WeaponClass == class'xWeapons.SniperRifle' || L.Weapons[i].WeaponClass == class'ClassicSniperRifle' )
-                L.Weapons[i].WeaponClass = Class'tk_SWXWeapons.RPSR';
+                L.Weapons[i].WeaponClass = Class'mm_SWXWeapons.RPSR';
         }
         return true;
     }
@@ -115,7 +115,7 @@ function string GetInventoryClassOverride(string InventoryClassName)
 
 defaultproperties
 {
-     DefaultWeapon=Class'tk_SWXWeapons.RPAR'
+     DefaultWeapon=Class'mm_SWXWeapons.RPAR'
      DefaultWeaponName="Retro-Plasma Assault Rifle"
      GroupName="SWX"
      FriendlyName="Super Weapons X"

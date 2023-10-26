@@ -140,8 +140,8 @@ simulated event RenderOverlays( Canvas Canvas )
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_SWXWeapons.RPARProjectileFire'
-     FireModeClass(1)=Class'tk_SWXWeapons.RPARAltProjectileFire'
+     FireModeClass(0)=Class'mm_SWXWeapons.RPARProjectileFire'
+     FireModeClass(1)=Class'mm_SWXWeapons.RPARAltProjectileFire'
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.AssaultRifle.SwitchToAssaultRifle'
      SelectForce="SwitchToAssaultRifle"
@@ -153,11 +153,11 @@ defaultproperties
      Priority=3
      HudColor=(B=192,G=128)
      InventoryGroup=2
-     PickupClass=Class'tk_SWXWeapons.RPARPickup'
+     PickupClass=Class'mm_SWXWeapons.RPARPickup'
      PlayerViewOffset=(X=-8.000000,Y=5.000000,Z=-6.000000)
      PlayerViewPivot=(Pitch=400)
      BobDamping=1.700000
-     AttachmentClass=Class'tk_SWXWeapons.RPARAttachement'
+     AttachmentClass=Class'mm_SWXWeapons.RPARAttachement'
      IconMaterial=Texture'InterfaceContent.HUD.SkinA'
      IconCoords=(X1=200,Y1=100,X2=321,Y2=189)
      ItemName="Retro-Plasma Assault Rifle"
@@ -169,6 +169,6 @@ defaultproperties
      LightRadius=4.000000
      LightPeriod=3
      Mesh=SkeletalMesh'Weapons.AssaultRifle_1st'
-     Skins(0)=Texture'tk_SWXWeapons.RPAR.RPARTex2'
+     Skins(0)=Texture'mm_SWXWeapons.RPAR.RPARTex2'
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

@@ -1,6 +1,6 @@
 class BWGX extends tk_Weapon;
 
-#EXEC OBJ LOAD FILE="Resources/tk_SWXWeapons_rc.u" PACKAGE="tk_SWXWeapons"
+#EXEC OBJ LOAD FILE="Resources/mm_SWXWeapons_rc.u" PACKAGE="mm_SWXWeapons"
 
 var() int Links;
 var() bool Linking;
@@ -100,8 +100,8 @@ function float SuggestDefenseStyle()
 defaultproperties
 {
      NewEffectOffset=5.000000
-     FireModeClass(0)=Class'tk_SWXWeapons.BWGXLightFire'
-     FireModeClass(1)=Class'tk_SWXWeapons.BWGXDarkFire'
+     FireModeClass(0)=Class'mm_SWXWeapons.BWGXLightFire'
+     FireModeClass(1)=Class'mm_SWXWeapons.BWGXDarkFire'
      PutDownAnim="PutDown"
      IdleAnimRate=0.030000
      SelectSound=Sound'WeaponSounds.LinkGun.SwitchToLinkGun'
@@ -117,15 +117,15 @@ defaultproperties
      CenteredRoll=3000
      CenteredYaw=-300
      InventoryGroup=5
-     PickupClass=Class'tk_SWXWeapons.BWGXPickup'
+     PickupClass=Class'mm_SWXWeapons.BWGXPickup'
      PlayerViewOffset=(X=-2.000000,Y=-2.000000,Z=-3.000000)
      PlayerViewPivot=(Yaw=500)
      BobDamping=1.575000
-     AttachmentClass=Class'tk_SWXWeapons.BWGXAttachement'
+     AttachmentClass=Class'mm_SWXWeapons.BWGXAttachement'
      IconMaterial=Texture'InterfaceContent.HUD.SkinA'
      IconCoords=(X1=200,Y1=190,X2=321,Y2=280)
      ItemName="Black and White Gun X"
      Mesh=SkeletalMesh'Weapons.LinkGun_1st'
-     Skins(0)=Texture'tk_SWXWeapons.BWGX.BWGtex0'
+     Skins(0)=Texture'mm_SWXWeapons.BWGX.BWGtex0'
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

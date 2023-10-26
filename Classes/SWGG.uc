@@ -239,8 +239,8 @@ defaultproperties
      AttachRot=(Pitch=22000,Yaw=-16384)
      GearRatio=-2.370000
      Blend=1.000000
-     FireModeClass(0)=Class'tk_SWXWeapons.SWGGPriFire'
-     FireModeClass(1)=Class'tk_SWXWeapons.SWGGAltFire'
+     FireModeClass(0)=Class'mm_SWXWeapons.SWGGPriFire'
+     FireModeClass(1)=Class'mm_SWXWeapons.SWGGAltFire'
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.Minigun.SwitchToMiniGun'
      SelectForce="SwitchToMiniGun"
@@ -255,11 +255,11 @@ defaultproperties
      CenteredRoll=0
      CenteredYaw=-500
      InventoryGroup=6
-     PickupClass=Class'tk_SWXWeapons.SWGGPickup'
+     PickupClass=Class'mm_SWXWeapons.SWGGPickup'
      PlayerViewOffset=(X=2.000000,Y=-1.000000)
      PlayerViewPivot=(Yaw=500)
      BobDamping=2.250000
-     AttachmentClass=Class'tk_SWXWeapons.SWGGAttachement'
+     AttachmentClass=Class'mm_SWXWeapons.SWGGAttachement'
      IconMaterial=Texture'InterfaceContent.HUD.SkinA'
      IconCoords=(X1=200,Y1=372,X2=321,Y2=462)
      ItemName="Super Weapons Gattling Gun"
@@ -272,7 +272,7 @@ defaultproperties
      LightPeriod=3
      Mesh=SkeletalMesh'Weapons.Minigun_1st'
      DrawScale=0.400000
-     Skins(0)=Texture'tk_SWXWeapons.SWGG.SWGGTex'
+     Skins(0)=Texture'mm_SWXWeapons.SWGG.SWGGTex'
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
      SoundRadius=400.000000
 }

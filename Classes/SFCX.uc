@@ -77,8 +77,8 @@ function float SuggestDefenseStyle()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_SWXWeapons.SFCXFire'
-     FireModeClass(1)=Class'tk_SWXWeapons.SFCXAltFire'
+     FireModeClass(0)=Class'mm_SWXWeapons.SFCXFire'
+     FireModeClass(1)=Class'mm_SWXWeapons.SFCXAltFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.FlakCannon.SwitchToFlakCannon'
@@ -90,11 +90,11 @@ defaultproperties
      Priority=8
      HudColor=(G=128)
      InventoryGroup=7
-     PickupClass=Class'tk_SWXWeapons.SFCXPickup'
+     PickupClass=Class'mm_SWXWeapons.SFCXPickup'
      PlayerViewOffset=(X=-7.000000,Y=8.000000)
      PlayerViewPivot=(Yaw=16884,Roll=200)
      BobDamping=1.400000
-     AttachmentClass=Class'tk_SWXWeapons.SFCXAttachement'
+     AttachmentClass=Class'mm_SWXWeapons.SFCXAttachement'
      IconMaterial=Texture'InterfaceContent.HUD.SkinA'
      IconCoords=(X1=322,Y1=100,X2=444,Y2=200)
      ItemName="Super Flak Cannon X"
@@ -105,6 +105,6 @@ defaultproperties
      LightBrightness=150.000000
      LightRadius=4.000000
      Mesh=SkeletalMesh'Weapons.Flak_1st'
-     Skins(0)=Texture'tk_SWXWeapons.SFCX.SFCXTex0'
+     Skins(0)=Texture'mm_SWXWeapons.SFCX.SFCXTex0'
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

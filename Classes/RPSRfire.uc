@@ -192,15 +192,15 @@ function PlayFiring()
 
 defaultproperties
 {
-     BeamEffectClass(0)=Class'tk_SWXWeapons.RPSRBeamEffect'
-     BeamEffectClass(1)=Class'tk_SWXWeapons.RPSRBeamEffectB'
-     BeamEffectClass(2)=Class'tk_SWXWeapons.RPSRBeamEffectC'
-     BeamEffectClass(3)=Class'tk_SWXWeapons.RPSRBeamEffectD'
-     BeamEffectClass(4)=Class'tk_SWXWeapons.RPSRBeamEffectE'
+     BeamEffectClass(0)=Class'mm_SWXWeapons.RPSRBeamEffect'
+     BeamEffectClass(1)=Class'mm_SWXWeapons.RPSRBeamEffectB'
+     BeamEffectClass(2)=Class'mm_SWXWeapons.RPSRBeamEffectC'
+     BeamEffectClass(3)=Class'mm_SWXWeapons.RPSRBeamEffectD'
+     BeamEffectClass(4)=Class'mm_SWXWeapons.RPSRBeamEffectE'
      HeadShotDamageMult=2.000000
      HeadShotRadius=8.000000
      DamageTypeHeadShot=Class'XWeapons.DamTypeSniperHeadShot'
-     DamageType=Class'tk_SWXWeapons.RPSRDamageType'
+     DamageType=Class'mm_SWXWeapons.RPSRDamageType'
      DamageMin=60
      DamageMax=75
      TraceRange=17000.000000
@@ -208,10 +208,10 @@ defaultproperties
      bReflective=True
      bFireOnRelease=True
      FireAnim="Close"
-     FireSound=Sound'tk_SWXWeapons.RPSRwhoom'
+     FireSound=Sound'mm_SWXWeapons.RPSRwhoom'
      FireForce="RPARalt"
      FireRate=0.600000
-     AmmoClass=Class'tk_SWXWeapons.RPSRAmmo'
+     AmmoClass=Class'mm_SWXWeapons.RPSRAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-8.000000)

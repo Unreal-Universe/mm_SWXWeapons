@@ -21,7 +21,7 @@ simulated function PostBeginPlay()
 
 simulated function destroyed()
 {
-    PlaySound(Sound'tk_SWXWeapons.IGChunkBreak', SLOT_Misc);
+    PlaySound(Sound'mm_SWXWeapons.IGChunkBreak', SLOT_Misc);
 
 	if ( EffectIsRelevant(Location,false) )
 	    Spawn(class'IceDustExplosionB',,, Location);
@@ -111,11 +111,11 @@ defaultproperties
      MaxSpeed=12000.000000
      Damage=5.000000
      MomentumTransfer=75000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeSWIGChunk'
-     ImpactSound=Sound'tk_SWXWeapons.SWIG.IGChunkHit'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeSWIGChunk'
+     ImpactSound=Sound'mm_SWXWeapons.SWIG.IGChunkHit'
      ExplosionDecal=Class'XEffects.ShockAltDecal'
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'tk_SWXWeapons.SWIC.IceChunk'
+     StaticMesh=StaticMesh'mm_SWXWeapons.SWIC.IceChunk'
      Physics=PHYS_Falling
      LifeSpan=20.000000
      DrawScale3D=(X=0.500000,Y=0.500000,Z=0.500000)

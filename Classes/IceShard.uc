@@ -18,7 +18,7 @@ simulated function DestroyTrails()
 
 simulated function Destroyed()
 {
-    PlaySound(Sound'tk_SWXWeapons.IGShardBreak', SLOT_Misc);
+    PlaySound(Sound'mm_SWXWeapons.IGShardBreak', SLOT_Misc);
 
 	if ( EffectIsRelevant(Location,false) )
 	    Spawn(class'IceDustExplosion',,, Location);
@@ -134,10 +134,10 @@ defaultproperties
      Damage=10.000000
      DamageRadius=0.000000
      MomentumTransfer=30000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeSWIGShard'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeSWIGShard'
      ExplosionDecal=Class'XEffects.LinkBoltScorch'
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'tk_SWXWeapons.SWIC.IceShard'
+     StaticMesh=StaticMesh'mm_SWXWeapons.SWIC.IceShard'
      bDynamicLight=True
      AmbientSound=Sound'WeaponSounds.LinkGun.LinkGunProjectile'
      LifeSpan=8.000000

@@ -36,5 +36,5 @@ defaultproperties
      bRapidFire=True
      bAltRapidFire=True
      Mesh=SkeletalMesh'Weapons.LinkGun_3rd'
-     Skins(0)=Texture'tk_SWXWeapons.BWGX.BWGtex0'
+     Skins(0)=Texture'mm_SWXWeapons.BWGX.BWGtex0'
 }

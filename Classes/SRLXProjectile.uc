@@ -151,7 +151,7 @@ defaultproperties
      MaxSpeed=2350.000000
      Damage=100.000000
      MomentumTransfer=100000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeSRLXRock'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeSRLXRock'
      ExplosionDecal=Class'XEffects.RocketMark'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence

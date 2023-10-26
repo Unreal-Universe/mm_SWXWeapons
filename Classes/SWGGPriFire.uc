@@ -248,18 +248,18 @@ defaultproperties
      BarrelRotationsPerSec=6.000000
      RoundsPerRotation=10
      WindingSound=Sound'WeaponSounds.Minigun.miniempty'
-     FiringSound=Sound'tk_SWXWeapons.SWGG.SWGGFire'
+     FiringSound=Sound'mm_SWXWeapons.SWGG.SWGGFire'
      WindUpTime=0.270000
      FiringForce="minialtfireb"
      WindingForce="miniempty"
-     DamageType=Class'tk_SWXWeapons.SWGGDamagePri'
+     DamageType=Class'mm_SWXWeapons.SWGGDamagePri'
      DamageMin=10
      DamageMax=14
      Momentum=1800.000000
      bPawnRapidFireAnim=True
      PreFireTime=0.270000
      FireLoopAnimRate=9.000000
-     AmmoClass=Class'tk_SWXWeapons.SWGGAmmo'
+     AmmoClass=Class'mm_SWXWeapons.SWGGAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=70.000000,Y=70.000000,Z=70.000000)
      ShakeRotRate=(X=15000.000000,Y=15000.000000,Z=15000.000000)

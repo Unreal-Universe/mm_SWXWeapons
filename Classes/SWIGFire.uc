@@ -17,12 +17,12 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.ShockRifle.ShockRifleAltFire'
      FireForce="ShockRifleAltFire"
      FireRate=0.360000
-     AmmoClass=Class'tk_SWXWeapons.SWIGAmmo'
+     AmmoClass=Class'mm_SWXWeapons.SWIGAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=60.000000,Y=20.000000)
      ShakeRotRate=(X=1000.000000,Y=1000.000000)
      ShakeRotTime=2.000000
-     ProjectileClass=Class'tk_SWXWeapons.IceShard'
+     ProjectileClass=Class'mm_SWXWeapons.IceShard'
      BotRefireRate=0.260000
      FlashEmitterClass=Class'XEffects.ShockProjMuzFlash'
 }

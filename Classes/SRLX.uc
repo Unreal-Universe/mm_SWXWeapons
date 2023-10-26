@@ -414,8 +414,8 @@ defaultproperties
      CrossHairColor=(R=250,A=255)
      CrosshairX=16.000000
      CrosshairY=16.000000
-     FireModeClass(0)=Class'tk_SWXWeapons.SRLXFire'
-     FireModeClass(1)=Class'tk_SWXWeapons.SRLXMultiFire'
+     FireModeClass(0)=Class'mm_SWXWeapons.SRLXFire'
+     FireModeClass(1)=Class'mm_SWXWeapons.SRLXMultiFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      IdleAnimRate=0.250000
@@ -431,15 +431,15 @@ defaultproperties
      CenteredOffsetY=-5.000000
      CenteredYaw=-500
      InventoryGroup=8
-     PickupClass=Class'tk_SWXWeapons.SRLXPickup'
+     PickupClass=Class'mm_SWXWeapons.SRLXPickup'
      PlayerViewOffset=(Y=8.000000)
      PlayerViewPivot=(Yaw=500,Roll=1000)
      BobDamping=1.500000
-     AttachmentClass=Class'tk_SWXWeapons.SRLXAttachement'
+     AttachmentClass=Class'mm_SWXWeapons.SRLXAttachement'
      IconMaterial=Texture'InterfaceContent.HUD.SkinA'
      IconCoords=(X1=745,X2=866,Y2=88)
      ItemName="Super Rocket Launcher X"
      Mesh=SkeletalMesh'Weapons.RocketLauncher_1st'
-     Skins(0)=Texture'tk_SWXWeapons.SRLX.srlx01'
+     Skins(0)=Texture'mm_SWXWeapons.SRLX.srlx01'
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

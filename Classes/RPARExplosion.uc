@@ -28,6 +28,6 @@ defaultproperties
      mNumTileColumns=4
      mNumTileRows=4
      DrawScale=1.200000
-     Skins(0)=Texture'tk_SWXWeapons.RPARSmoke_t'
+     Skins(0)=Texture'mm_SWXWeapons.RPARSmoke_t'
      Style=STY_Alpha
 }

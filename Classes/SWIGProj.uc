@@ -137,7 +137,7 @@ defaultproperties
      bSwitchToZeroCollision=True
      Damage=90.000000
      DamageRadius=150.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeSWIGProj'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeSWIGProj'
      ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
      ExplosionDecal=Class'XEffects.ShockImpactScorch'
      MaxEffectDistance=7000.000000

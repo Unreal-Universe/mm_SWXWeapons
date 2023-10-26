@@ -83,7 +83,7 @@ defaultproperties
      RemoteRole=ROLE_SimulatedProxy
      NetPriority=3.000000
      LifeSpan=2.500000
-     Texture=Texture'tk_SWXWeapons.Effects.RPSRBeamTex'
-     Skins(0)=Texture'tk_SWXWeapons.Effects.RPSRBeamTex'
+     Texture=Texture'mm_SWXWeapons.RPSR.RPSRBeamTex'
+     Skins(0)=Texture'mm_SWXWeapons.RPSR.RPSRBeamTex'
      Style=STY_Additive
 }

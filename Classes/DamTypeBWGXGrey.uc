@@ -8,7 +8,7 @@ static function GetHitEffects(out class<xEmitter> HitEffects[4], int VictemHealt
 
 defaultproperties
 {
-     WeaponClass=Class'tk_SWXWeapons.BWGX'
+     WeaponClass=Class'mm_SWXWeapons.BWGX'
      DeathString="%o never saw %k's big, smoking, hissing, powerfull grey matter comming."
      FemaleSuicide="%o got in the way of her grey matter."
      MaleSuicide="%o got in th way of his grey matter."

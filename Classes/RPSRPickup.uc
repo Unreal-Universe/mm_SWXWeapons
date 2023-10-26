@@ -27,10 +27,10 @@ simulated function UpdatePrecacheMaterials()
 defaultproperties
 {
      MaxDesireability=0.650000
-     InventoryType=Class'tk_SWXWeapons.RPSR'
+     InventoryType=Class'mm_SWXWeapons.RPSR'
      PickupMessage="You got the Retro-Plasma Sniper Rifle."
      PickupSound=Sound'PickupSounds.SniperRiflePickup'
      PickupForce="SniperRiflePickup"
-     Mesh=SkeletalMesh'tk_SWXWeapons.RPSRmesh'
+     Mesh=SkeletalMesh'mm_SWXWeapons.RPSRmesh'
      DrawScale=0.100000
 }

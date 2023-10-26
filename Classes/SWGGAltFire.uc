@@ -281,13 +281,13 @@ defaultproperties
      FireEndAnim=
      FireLoopAnimRate=7.000000
      FireForce="FAssaultRifleAltFire"
-     AmmoClass=Class'tk_SWXWeapons.SWGGAmmo'
+     AmmoClass=Class'mm_SWXWeapons.SWGGAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-20.000000)
      ShakeOffsetRate=(X=-1000.000000)
      ShakeOffsetTime=0.200000
-     ProjectileClass=Class'tk_SWXWeapons.SWGGGrenade'
+     ProjectileClass=Class'mm_SWXWeapons.SWGGGrenade'
      BotRefireRate=0.100000
      WarnTargetPct=0.750000
      FlashEmitterClass=Class'XEffects.MinigunMuzFlash1st'

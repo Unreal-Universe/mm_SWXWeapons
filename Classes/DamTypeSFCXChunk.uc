@@ -19,7 +19,7 @@ static function IncrementKills(Controller Killer)
 defaultproperties
 {
      FlakMonkey=Sound'AnnouncerMain.FlackMonkey'
-     WeaponClass=Class'tk_SWXWeapons.SFCX'
+     WeaponClass=Class'mm_SWXWeapons.SFCX'
      DeathString="%o was minced by %k's Super Flak Cannon X!"
      FemaleSuicide="%o aimed her Super Flak Cannon at a wall."
      MaleSuicide="%o aimed his Super Flak Cannon at a wall."

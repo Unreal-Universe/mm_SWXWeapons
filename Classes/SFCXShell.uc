@@ -124,7 +124,7 @@ defaultproperties
      TossZ=200.000000
      Damage=120.000000
      MomentumTransfer=95000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeSFCXShell'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeSFCXShell'
      ExplosionDecal=Class'XEffects.RocketMark'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.FlakShell'

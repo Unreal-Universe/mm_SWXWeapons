@@ -140,13 +140,13 @@ defaultproperties
      Damage=15.000000
      DamageRadius=120.000000
      MomentumTransfer=15000.000000
-     MyDamageType=Class'tk_SWXWeapons.SWGGDamageAlt'
+     MyDamageType=Class'mm_SWXWeapons.SWGGDamageAlt'
      ImpactSound=ProceduralSound'WeaponSounds.PGrenFloor1.P1GrenFloor1'
      ExplosionDecal=Class'XEffects.RocketMark'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.GrenadeMesh'
      Physics=PHYS_Falling
-     Skins(0)=Texture'tk_SWXWeapons.Skins.SWGGBullet'
+     Skins(0)=Texture'mm_SWXWeapons.SWGG.SWGGBullet'
      AmbientGlow=30
      bBounce=True
      bFixedRotationDir=True

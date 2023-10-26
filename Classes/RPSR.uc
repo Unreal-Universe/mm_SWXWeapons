@@ -318,7 +318,7 @@ defaultproperties
      ChargeColor=(B=255,G=255,R=255,A=255)
      RechargeOrigin=(X=600.000000,Y=330.000000)
      RechargeSize=(X=10.000000,Y=-180.000000)
-     FireModeClass(0)=Class'tk_SWXWeapons.RPSRfire'
+     FireModeClass(0)=Class'mm_SWXWeapons.RPSRfire'
      FireModeClass(1)=Class'XWeapons.SniperZoom'
      SelectAnim="load"
      PutDownAnim="unload"
@@ -337,11 +337,11 @@ defaultproperties
      CenteredOffsetY=0.000000
      CenteredYaw=-500
      InventoryGroup=9
-     PickupClass=Class'tk_SWXWeapons.RPSRPickup'
+     PickupClass=Class'mm_SWXWeapons.RPSRPickup'
      PlayerViewOffset=(X=16.000000,Y=5.000000,Z=-6.000000)
      PlayerViewPivot=(Yaw=49151)
      BobDamping=2.300000
-     AttachmentClass=Class'tk_SWXWeapons.RPSRAttachement'
+     AttachmentClass=Class'mm_SWXWeapons.RPSRAttachement'
      IconMaterial=Texture'InterfaceContent.HUD.SkinA'
      IconCoords=(X1=322,Y1=372,X2=444,Y2=462)
      ItemName="Retro-Plasma Sniper Rifle"
@@ -352,7 +352,7 @@ defaultproperties
      LightBrightness=75.000000
      LightRadius=4.000000
      LightPeriod=3
-     Mesh=SkeletalMesh'RPSRmodel.RPSRmesh'
+     Mesh=SkeletalMesh'mm_SWXWeapons.RPSRmesh'
      DrawScale=0.050000
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

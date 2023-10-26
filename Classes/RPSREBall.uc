@@ -31,7 +31,7 @@ defaultproperties
      LightSaturation=100
      LightBrightness=160.000000
      LightRadius=24.000000
-     AmbientSound=Sound'tk_SWXWeapons.RPSRhum'
+     AmbientSound=Sound'mm_SWXWeapons.RPSRhum'
      Texture=Texture'EmitterTextures.MultiFrame.Effect_A'
      Skins(0)=Texture'EmitterTextures.MultiFrame.Effect_A'
      Style=STY_Translucent

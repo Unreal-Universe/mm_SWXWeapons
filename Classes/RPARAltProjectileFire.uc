@@ -17,7 +17,7 @@ function Projectile SpawnProjectile(Vector Start, Rotator Dir)
     local RPARAltProjectile Proj;
 
     Start += Vector(Dir) * 10.0;
-    Proj = Spawn(Class'tk_SWXWeapons.RPARAltProjectile',,, Start, Dir);
+    Proj = Spawn(Class'mm_SWXWeapons.RPARAltProjectile',,, Start, Dir);
     return Proj;
 }
 
@@ -29,7 +29,7 @@ defaultproperties
      FireLoopAnim=
      FireEndAnim=
      FireAnimRate=0.580000
-     FireSound=Sound'tk_SWXWeapons.RPAR.RPARalt'
+     FireSound=Sound'mm_SWXWeapons.RPAR.RPARalt'
      FireForce="TranslocatorFire"
      FireRate=0.580000
      AmmoClass=Class'XWeapons.LinkAmmo'
@@ -39,7 +39,7 @@ defaultproperties
      ShakeOffsetMag=(Y=1.000000)
      ShakeOffsetRate=(Y=-2000.000000)
      ShakeOffsetTime=4.000000
-     ProjectileClass=Class'tk_SWXWeapons.RPARAltProjectile'
+     ProjectileClass=Class'mm_SWXWeapons.RPARAltProjectile'
      BotRefireRate=0.580000
      WarnTargetPct=0.100000
      FlashEmitterClass=Class'XEffects.LinkMuzFlashProj1st'

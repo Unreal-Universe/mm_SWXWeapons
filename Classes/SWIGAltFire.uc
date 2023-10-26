@@ -10,6 +10,6 @@ defaultproperties
      ShakeRotMag=(X=80.000000,Y=40.000000)
      ShakeRotRate=(X=2000.000000,Y=2000.000000)
      ShakeRotTime=3.000000
-     ProjectileClass=Class'tk_SWXWeapons.SWIGProj'
+     ProjectileClass=Class'mm_SWXWeapons.SWIGProj'
      BotRefireRate=0.740000
 }

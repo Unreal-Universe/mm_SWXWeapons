@@ -4,6 +4,6 @@ defaultproperties
 {
      MaxAmmo=100
      InitialAmount=25
-     PickupClass=Class'tk_SWXWeapons.MGAmmoPickup'
+     PickupClass=Class'mm_SWXWeapons.MGAmmoPickup'
      ItemName="Super Weapons Magma Gun Ammo"
 }

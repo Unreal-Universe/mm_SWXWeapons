@@ -61,6 +61,6 @@ defaultproperties
      LightSaturation=100
      LightBrightness=160.000000
      LightRadius=24.000000
-     Mesh=SkeletalMesh'RPSRmodel.RPSCmesh3rd'
+     Mesh=SkeletalMesh'mm_SWXWeapons.RPSCmesh3rd'
      DrawScale=0.100000
 }

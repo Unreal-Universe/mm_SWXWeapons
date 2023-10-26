@@ -139,7 +139,7 @@ defaultproperties
      Damage=70.000000
      DamageRadius=120.000000
      MomentumTransfer=25000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeRPARSec'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeRPARSec'
      ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
      ExplosionDecal=Class'XEffects.LinkBoltScorch'
      LightType=LT_Steady

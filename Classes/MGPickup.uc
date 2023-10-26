@@ -14,12 +14,12 @@ simulated function UpdatePrecacheMaterials()
 defaultproperties
 {
      MaxDesireability=0.750000
-     InventoryType=Class'tk_SWXWeapons.MG'
+     InventoryType=Class'mm_SWXWeapons.MG'
      PickupMessage="You got the Magma Gun! BURN BABY!"
      PickupSound=Sound'PickupSounds.FlakCannonPickup'
      PickupForce="FlakCannonPickup"
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.BioRiflePickup'
      DrawScale=0.700000
-     Skins(0)=Texture'tk_SWXWeapons.SWMG.SWMGTex'
+     Skins(0)=Texture'mm_SWXWeapons.SWMG.SWMGTex'
 }

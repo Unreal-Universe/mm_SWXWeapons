@@ -43,7 +43,7 @@ defaultproperties
      ShakeOffsetMag=(X=-20.000000)
      ShakeOffsetRate=(X=-1000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_SWXWeapons.SRLXProjectile'
+     ProjectileClass=Class'mm_SWXWeapons.SRLXProjectile'
      BotRefireRate=0.500000
      WarnTargetPct=0.900000
      FlashEmitterClass=Class'XEffects.RocketMuzFlash1st'

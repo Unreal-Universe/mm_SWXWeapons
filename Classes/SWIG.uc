@@ -109,8 +109,8 @@ function byte BestMode()
 defaultproperties
 {
      EffectColor=(B=255,R=192,A=128)
-     FireModeClass(0)=Class'tk_SWXWeapons.SWIGFire'
-     FireModeClass(1)=Class'tk_SWXWeapons.SWIGAltFire'
+     FireModeClass(0)=Class'mm_SWXWeapons.SWIGFire'
+     FireModeClass(1)=Class'mm_SWXWeapons.SWIGAltFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.ShockRifle.SwitchToShockRifle'
@@ -138,7 +138,7 @@ defaultproperties
      CustomCrossHairScale=1.333000
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Cross2"
      InventoryGroup=4
-     PickupClass=Class'tk_SWXWeapons.SWIGPickup'
+     PickupClass=Class'mm_SWXWeapons.SWIGPickup'
      PlayerViewOffset=(X=4.000000,Y=8.000000,Z=-2.000000)
      PlayerViewPivot=(Pitch=-1000)
      BobDamping=1.800000
@@ -155,7 +155,7 @@ defaultproperties
      LightPeriod=3
      Mesh=SkeletalMesh'NewWeapons2004.ShockRifle'
      DrawScale=0.700000
-     Skins(0)=Texture'tk_SWXWeapons.SWIG.IceGunTex0'
-     Skins(1)=FinalBlend'tk_SWXWeapons.SWIG.IceProjTexFinal'
+     Skins(0)=Texture'mm_SWXWeapons.SWIG.IceGunTex0'
+     Skins(1)=FinalBlend'mm_SWXWeapons.SWIG.IceProjTexFinal'
      HighDetailOverlay=Combiner'UT2004Weapons.WeaponSpecMap2'
 }

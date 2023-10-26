@@ -2,5 +2,5 @@ class SRLXAttachement extends RocketAttachment;
 
 defaultproperties
 {
-     Skins(0)=Texture'tk_SWXWeapons.SRLX.srlx01'
+     Skins(0)=Texture'mm_SWXWeapons.SRLX.srlx01'
 }

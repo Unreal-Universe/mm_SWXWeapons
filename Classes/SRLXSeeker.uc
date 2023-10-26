@@ -49,6 +49,6 @@ simulated function PostBeginPlay()
 
 defaultproperties
 {
-     MyDamageType=Class'tk_SWXWeapons.DamTypeSRLXHoming'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeSRLXHoming'
      LifeSpan=10.000000
 }

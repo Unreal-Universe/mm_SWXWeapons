@@ -15,7 +15,7 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.BioRifle.BioRifleFire'
      FireForce="BioRifleFire"
      FireRate=0.300000
-     AmmoClass=Class'tk_SWXWeapons.MGAmmo'
+     AmmoClass=Class'mm_SWXWeapons.MGAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=70.000000)
      ShakeRotRate=(X=1000.000000)
@@ -23,6 +23,6 @@ defaultproperties
      ShakeOffsetMag=(Z=-2.000000)
      ShakeOffsetRate=(Z=1000.000000)
      ShakeOffsetTime=1.800000
-     ProjectileClass=Class'tk_SWXWeapons.MGMagma'
+     ProjectileClass=Class'mm_SWXWeapons.MGMagma'
      BotRefireRate=0.700000
 }

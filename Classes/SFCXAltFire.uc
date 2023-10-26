@@ -24,7 +24,7 @@ defaultproperties
      ShakeOffsetMag=(X=-40.000000)
      ShakeOffsetRate=(X=-2000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_SWXWeapons.SFCXShell'
+     ProjectileClass=Class'mm_SWXWeapons.SFCXShell'
      BotRefireRate=0.400000
      WarnTargetPct=0.900000
 }

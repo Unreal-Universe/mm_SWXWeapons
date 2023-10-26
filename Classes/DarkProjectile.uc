@@ -77,7 +77,7 @@ defaultproperties
      Damage=100.000000
      DamageRadius=100.000000
      MomentumTransfer=-150000.000000
-     MyDamageType=Class'tk_SWXWeapons.DamTypeBWGXDark'
+     MyDamageType=Class'mm_SWXWeapons.DamTypeBWGXDark'
      ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
      LightType=LT_Steady
      LightHue=255
@@ -88,9 +88,9 @@ defaultproperties
      bOnlyDirtyReplication=True
      AmbientSound=Sound'WeaponSounds.ShockRifle.ShockRifleProjectile'
      LifeSpan=25.000000
-     Texture=Texture'tk_SWXWeapons.BWGXBlack'
+     Texture=Texture'mm_SWXWeapons.BWGX.BWGXBlack'
      DrawScale=0.787500
-     Skins(0)=Texture'tk_SWXWeapons.BWGXBlack'
+     Skins(0)=Texture'mm_SWXWeapons.BWGX.BWGXBlack'
      Style=STY_None
      SoundVolume=255
      SoundRadius=100.000000

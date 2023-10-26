@@ -18,12 +18,12 @@ simulated function UpdatePrecacheMaterials()
 defaultproperties
 {
      MaxDesireability=0.730000
-     InventoryType=Class'tk_SWXWeapons.SWGG'
+     InventoryType=Class'mm_SWXWeapons.SWGG'
      PickupMessage="You got the Super Weapons Gattling Gun. Holy Swiss cheese Batman!"
      PickupSound=Sound'PickupSounds.MinigunPickup'
      PickupForce="MinigunPickup"
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.MinigunPickup'
      DrawScale=0.600000
-     Skins(0)=Texture'tk_SWXWeapons.SWGG.SWGGTex'
+     Skins(0)=Texture'mm_SWXWeapons.SWGG.SWGGTex'
 }
