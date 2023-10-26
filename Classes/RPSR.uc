@@ -353,6 +353,7 @@ defaultproperties
      LightRadius=4.000000
      LightPeriod=3
      Mesh=SkeletalMesh'mm_SWXWeapons.RPSRmesh'
+     Skins(0)=Texture'mm_SWXWeapons.RPSR.RPSRtex01'
      DrawScale=0.050000
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

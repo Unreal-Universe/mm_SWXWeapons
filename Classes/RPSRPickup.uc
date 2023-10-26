@@ -32,5 +32,6 @@ defaultproperties
      PickupSound=Sound'PickupSounds.SniperRiflePickup'
      PickupForce="SniperRiflePickup"
      Mesh=SkeletalMesh'mm_SWXWeapons.RPSRmesh'
+     Skins(0)=Texture'mm_SWXWeapons.RPSR.RPSRtex01'
      DrawScale=0.100000
 }
