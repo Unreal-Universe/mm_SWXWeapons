@@ -118,6 +118,6 @@ defaultproperties
      DefaultWeapon=Class'mm_SWXWeapons.RPAR'
      DefaultWeaponName="Retro-Plasma Assault Rifle"
      GroupName="SWX"
-     FriendlyName="Super Weapons X"
+     FriendlyName="MM_Super Weapons X"
      Description="Play with all available super Weapons X!"
 }
